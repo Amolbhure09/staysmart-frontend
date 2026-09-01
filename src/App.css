@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, Arial;
+}
+
+body {
+  background: #f4f6fb;
+  color: #111;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+button:hover {
+  opacity: 0.85;
+}
