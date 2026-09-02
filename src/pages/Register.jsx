@@ -47,7 +47,7 @@ function Register() {
             marginBottom: "25px",
           }}
         >
-          Join StaySmart AI 
+          Join StaySmart 
         </p>
 
         <form onSubmit={handleRegister}>

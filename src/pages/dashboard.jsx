@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import api from "../services/api";
-import TaskForm from "../components/TaskForm";
-import StatsCard from "../components/StatsCard";
+import TaskForm from "../components/Taskform";
+import StatsCard from "../components/Statscard";
 import Navbar from "../components/Navbar";
 
 export default function Dashboard() {
