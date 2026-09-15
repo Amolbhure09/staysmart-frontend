@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import api from "../services/api";
-import TaskForm from "../components/Taskform.jsx";
+import TaskForm from "../components/taskform.jsx";
 import StatsCard from "../components/Statscard.jsx";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar.jsx";
 
 export default function Dashboard() {
   const [tasks, setTasks] = useState([]);
